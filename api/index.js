@@ -135,6 +135,4 @@ app.get("/", (req, res) => {
   res.send("coffee server is getting hot");
 });
 
-app.listen(port, () => {
-  console.log(`port is ok may be ${port}`);
-});
+module.exports = app;
